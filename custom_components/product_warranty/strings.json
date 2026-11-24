@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add a product",
+        "description": "Add the product details, then upload its receipt from the Product Warranty panel.",
+        "data": {
+          "product_name": "Product name",
+          "purchase_date": "Purchase date",
+          "warranty_duration_months": "Warranty duration (months)"
+        }
+      }
+    },
+    "error": {
+      "name_required": "Enter a product name."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Product details",
+        "description": "Update this product's warranty details. Upload or replace its receipt from the Product Warranty panel.",
+        "data": {
+          "product_name": "Product name",
+          "purchase_date": "Purchase date",
+          "warranty_duration_months": "Warranty duration (months)"
+        }
+      }
+    },
+    "error": {
+      "name_required": "Enter a product name."
+    }
+  }
+}
